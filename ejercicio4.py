@@ -78,3 +78,8 @@ class Polinomio(object):
            pol2 = pol2.sig
            pol1 = pol1.sig
         return paux
+
+P1 = Polinomio()
+P2 = Polinomio()
+print(P1)
+print(P2)
