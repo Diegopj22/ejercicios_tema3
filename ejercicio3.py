@@ -72,4 +72,9 @@ def main():
     lista_naves.append(Nave("helicóptero", 30, 9, 10))
     lista_naves.append(Nave("caza ", 10, 4, 5))
     
+    #ordenar las naves por nombre
+    lista_naves_ord=merge_sort_nombre(lista_naves)
+    #mostrar los nombres de las naves ordenadas
+    for i in lista_naves_ord:
+        print(i)
 
