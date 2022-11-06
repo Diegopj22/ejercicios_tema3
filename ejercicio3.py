@@ -77,4 +77,19 @@ def main():
     #mostrar los nombres de las naves ordenadas
     for i in lista_naves_ord:
         print(i)
+    #buscar la nave "Halcón Milenario"
+    print(busca_nave_por_nombre(lista_naves_ord,"Halcón Milenario"))
+    #buscar la nave "Estrella de la Muerte"
+    print(busca_nave_por_nombre(lista_naves_ord,"Estrella de la Muerte"))
+
+    lista_naves_ord_cant_pas=merge_sort_cant_pas(lista_naves)
+
+    print("las cinco primeras naves ordenadas por pasajeros:")
+    i=0
+    while i<5:
+        print(lista_naves_ord_cant_pas[i])
+        i+=1
+    
+if __name__=="__main__":
+    main()
 
