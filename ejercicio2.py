@@ -16,7 +16,7 @@ def sarrus (n):
 def determinante(n):
     deter=1
     for x in range (n):
-       deter=matriz[x][x]*deter
+      deter = matriz[x][x]*deter
     print('\n El determinante de la matriz es =',deter)
 
 n=3
