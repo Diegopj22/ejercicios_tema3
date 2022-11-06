@@ -23,7 +23,7 @@ mostrar todas las naves que comienzan con AT;
 listar todas las naves que pueden llevar seis o más pasajeros;
  mostrar toda la información de la nave más pequeña y la más grande.
 
-##Ejercicio 4
+## Ejercicio 4
 Implementar sobre el TDA polinomio desarrollado previamente las siguientes actividades:
 
  restar;
