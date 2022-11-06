@@ -14,4 +14,4 @@ def main():
 if __name__=="__main__":
     main()
 
-       
+#Con 74 discos habría que hacer el problema pero tardaría mucho en ejecutarse      
