@@ -29,4 +29,13 @@ class Polinomio(object):
         aux = polinomio.termino_mayor
         while aux is not None and aux.info.termino != termino:
             aux = aux.sig
-            aux.info.valor = valor           
+            aux.info.valor = valor 
+
+    def obtener_valor(polinomio,termino):
+       aux = polinomio.termino_mayor
+       if aux is not None and aux.info.termino > termino:
+            aux = aux.sig
+       elif aux is not None and aux.info.termino == termino:
+            return aux.info.valor
+       else:
+            return 0           
