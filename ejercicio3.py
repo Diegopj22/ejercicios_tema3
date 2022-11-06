@@ -12,7 +12,7 @@ class Nave:
         info += ",cantidad de pasajeros:" + str(self.trip)
         return info 
 
-    def merge_sort_nombre(collection: list) -> list:
+def merge_sort_nombre(collection: list) -> list:
     def merge(left: list, right: list) -> list:
         def _merge():
             while left and right:
@@ -55,5 +55,4 @@ def binary_search_por_nombre(sorted_collection: list[Nave], item: str):
             right = midpoint - 1
         else:
             left = midpoint + 1
-    return None   
-        
+    return None
