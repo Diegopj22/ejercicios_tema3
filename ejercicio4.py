@@ -25,3 +25,8 @@ class Polinomio(object):
             while actual.sig is not None and termino < actual.info.termino:
                 actual = actual.sig
                 actual.sig = aux
+    def modificar_termino(polinomio,termino,valor):
+        aux = polinomio.termino_mayor
+        while aux is not None and aux.info.termino != termino:
+            aux = aux.sig
+            aux.info.valor = valor           
