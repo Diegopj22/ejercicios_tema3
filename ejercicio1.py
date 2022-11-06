@@ -11,4 +11,7 @@ def main():
     discos=3
     mover_tower(discos,"A","B","C")
 
+if __name__=="__main__":
+    main()
+
        
