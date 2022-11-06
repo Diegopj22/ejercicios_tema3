@@ -56,3 +56,10 @@ def binary_search_por_nombre(sorted_collection: list[Nave], item: str):
         else:
             left = midpoint + 1
     return None
+
+def busca_nave_por_nombre(lista,nombre_b):
+    print('\nse busca la nave con "'+ nombre_b + '":')
+    pos=binary_search_por_nombre(lista,nombre_b)
+    return lista [pos]
+
+
