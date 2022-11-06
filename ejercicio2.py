@@ -12,3 +12,14 @@ def sarrus (n):
                 p = matriz[x+z][z]/matriz[z][z]
                 for y in range(n):
                     matriz[x+z][y]= matriz[x+z][y]-(matriz[z][y]*p)
+
+def determinante(n):
+    deter=1
+    for x in range (n):
+       deter=matriz[x][x]*deter
+    print('\n El determinante de la matriz es =',deter)
+
+n=3
+rellenar(n)
+sarrus(n)
+determinante(n)
