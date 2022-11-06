@@ -38,4 +38,14 @@ class Polinomio(object):
        elif aux is not None and aux.info.termino == termino:
             return aux.info.valor
        else:
-            return 0           
+            return 0     
+
+    def mostrar (polinomio):
+       aux = polinomio.termino_mayor
+       poli = ""
+       signo = ""
+       if aux.info.valor >= 0:
+            singo += "+"
+            pol += signo + str(aux.info.valor) + "x**" + str(aux.info.termino)       
+       else:
+        return poli
