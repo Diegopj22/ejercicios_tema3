@@ -6,4 +6,9 @@ def mover_tower(height,from_pole,to_pole,with_pole):
 
 def move_disk(fp,tp):
     print("moviendo disco de ",fp,"a",tp)
+
+def main():
+    discos=3
+    mover_tower(discos,"A","B","C")
+
        
