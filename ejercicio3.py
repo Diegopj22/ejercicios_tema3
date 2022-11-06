@@ -62,4 +62,14 @@ def busca_nave_por_nombre(lista,nombre_b):
     pos=binary_search_por_nombre(lista,nombre_b)
     return lista [pos]
 
+def main():
+    #lista de naves
+    lista_naves = []
+    lista_naves.append(Nave("Halcón Milenario", 200, 7, 20))
+    lista_naves.append(Nave("Estrella de la Muerte", 2000, 50, 5000))
+    lista_naves.append(Nave("cohete", 300, 72, 240))
+    lista_naves.append(Nave("avion ", 20, 3, 2))
+    lista_naves.append(Nave("helicóptero", 30, 9, 10))
+    lista_naves.append(Nave("caza ", 10, 4, 5))
+    
 
