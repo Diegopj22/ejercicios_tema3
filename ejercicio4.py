@@ -7,3 +7,8 @@ class datoPolinomio(object):
         self.valor = valor
         self.termino = termino
 
+class Polinomio(object):
+    def __init__(self):
+        self.termino_may= None
+        self.grado = -1
+        
